@@ -30,7 +30,9 @@ Domain: **corp.at**
     - DC1-1 zu DC hochstufen und **Neustarten**
 - #### neue Site hinzufügen
     - Active Directory Sites & services öffnen
+
     ![Active_Directory_Sites_and_services_overview](./IMAGES/Active_Directory_Sites_and_services_overview.png)
+    
     - Sites und Site-Links **umbenenen** (im bild sind die sites und site links schon umbenannt)
     - eine neue Site (Site2) erstellen und den umbenannten site link auswählen (in dem man "Sites" rechtsclickt)
 
