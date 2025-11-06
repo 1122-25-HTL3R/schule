@@ -29,11 +29,20 @@ Domain: **corp.at**
         - (DC1-1 ist primary DC da er der ERSTE in der Domain war)
     - DC1-1 zu DC hochstufen und **Neustarten**
 - #### neue Site hinzufügen
+
     - Active Directory Sites & services öffnen
 
     ![Active_Directory_Sites_and_services_overview](./IMAGES/Active_Directory_Sites_and_services_overview.png)
 
-    - Sites und Site-Links **umbenenen** (im bild sind die sites und site links schon umbenannt)
+    - Sites und Site-Links **umbenenen** und überprüfen ob die richtigen sites im Link sind! (im bild sind die sites und site links schon umbenannt)
+        - in Sitelinks:
+
+            ![site link settings](./IMAGES/Sites_and_services_sitelink_conf_settings.png)
+
+            kann man
+            - Kosten
+            - replikations interval
+
     - eine neue Site (Site2) erstellen und den umbenannten site link auswählen (in dem man "Sites" rechtsclickt)
 
 - #### Subnetze Erstellen und zuweisen
@@ -47,9 +56,6 @@ Domain: **corp.at**
         
         **!Wichtig:** ein Subnetz kann nur zu **EINEM** Site *(Standort)* zugeordnet werden.
     - das selbe nochmal für die anderen Subnetze
-
-    
-
 
     
 
@@ -71,6 +77,7 @@ Domain: **corp.at**
     - features instalieren 
     - bevor wir DC2-1 zu einem domaincontroler in der Domain **corp.at** in site2 machen können müssen DC1-1 und DC2-1 konektivität miteinander haben.->
     [Router aufsetzen](#router-ubuntu-mit-gui)
+
 ## DC2-1 nach Router konfiguration
 - *nat immernoch aus*->
     - DC2-1 in domain einbinden
@@ -84,9 +91,6 @@ Domain: **corp.at**
     -[Testen ob replikation funktioniert!](#testen)
 
     
-
-
-
 ## Router (Ubuntu mit GUI)
 wir benutzen eine Ubuntu VM als router 
 
