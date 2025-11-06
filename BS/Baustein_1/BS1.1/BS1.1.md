@@ -63,7 +63,9 @@ Domain: **corp.at**
 ## DC2-1 nach Router konfiguration
 - *nat immernoch aus*->
     - DC2-1 in domain einbinden
+
     ![bild wie DC2-1 zu "corp.at" geadded wird](./IMAGES/add_DC2-1_to_domain.png)
+    
     *im Bild ist DC2-1 schon in "corp.at" eingebunden.*
 
     - Credentials: ```corp\administrator``` und dein passwort (```corp\``` ist das prefix von der domain)
@@ -109,7 +111,7 @@ wir benutzen eine Ubuntu VM als router
     - ```repadmin /replsummary```
 
     ![repadmin /replsummary output](./IMAGES/repadmin_replsummary_output.png)
-    
+
     Bild zeigt eine zusammenfassung der replikationen an auf DC1-1
 
     - ```repadmin /showrepl```
