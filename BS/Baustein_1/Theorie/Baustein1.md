@@ -14,11 +14,18 @@
 # Testen
 - ## AD-TEST-Commands
     - ## [dcdiag](https://learn.microsoft.com/de-de/windows-server/administration/windows-commands/dcdiag)
+
         - ```dcdiag /test:DNS```
 
     - ## [repadmin]()
         - ```repadmin /showrepl```
+            
+            Zeigt die Letzten Replikationen an und ob diese Succesfull waren.
+
 
         - ```repadmin /replsummary```
 
+            Zeigt eine Zusammenfassung der Replikation.
+            *(standardmässig Forest weit. mit der option -d kann man eine domain angeben)*
+            
     - ``` ```
