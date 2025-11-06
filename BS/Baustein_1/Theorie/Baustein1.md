@@ -17,7 +17,7 @@
 
         - ```dcdiag /test:DNS```
 
-    - ## [repadmin]()
+    - ## [repadmin](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/cc770963(v=ws.11))
         - ```repadmin /showrepl```
             
             Zeigt die Letzten Replikationen an und ob diese Succesfull waren.
@@ -27,5 +27,5 @@
 
             Zeigt eine Zusammenfassung der Replikation.
             *(standardmässig Forest weit. mit der option -d kann man eine domain angeben)*
-            
+
     - ``` ```
