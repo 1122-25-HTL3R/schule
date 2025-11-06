@@ -36,7 +36,18 @@ Domain: **corp.at**
     - Sites und Site-Links **umbenenen** (im bild sind die sites und site links schon umbenannt)
     - eine neue Site (Site2) erstellen und den umbenannten site link auswählen (in dem man "Sites" rechtsclickt)
 
-    
+- #### Subnetze Erstellen und zuweisen
+    - Active Directory Sites & services öffnen
+    - "*Subnets*" rechtsclicken ->
+    - neues Subnet erstellen:
+
+    ![AD-Sites_and_services new subnet wizzard](./IMAGES/Active_Directory_Site_and_Services_Subnets_Wizard.png)
+
+    - netzwerk Addresse angeben und einer Site zuweisen.
+        
+        **!Wichtig:** ein Subnetz kann nur zu **EINEM** Site *(Standort)* zugeordnet werden.
+    - das selbe nochmal für die anderen Subnetze
+
     
 
 
